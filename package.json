@@ -21,6 +21,7 @@
     }]
   },
   "scripts": {
+    "vscode:publish": "vsce publish -p oknbqnjb4vzhnvpipyqquow3zhuj4bpc6vfx3tafgi2qmyric5tq",
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
     "watch": "webpack --watch",
