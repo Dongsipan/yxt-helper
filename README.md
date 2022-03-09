@@ -7,7 +7,7 @@
 
 目前只有部分被组件提供了hover提示
 
-\!\[feature X\]\(images/feature-x.png\)
+\!\[feature X\]\(images/hover.jpg\)
 
 > Tip: 希望有兴趣的小伙伴加入进来，共同建设云学堂前端工具生态
 
