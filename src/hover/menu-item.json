@@ -1,0 +1,14 @@
+{
+  "component": "yxt-menu-item",
+  "attributes": [{
+    "parameter": "index",
+    "description": "唯一标志"
+  },{
+    "parameter": "route",
+    "description": "Vue Router 路径对象"
+  },{
+    "parameter": "disabled",
+    "description": "是否禁用"
+  }],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/menu"
+}

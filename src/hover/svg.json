@@ -1,0 +1,27 @@
+{
+  "component": "yxt-svg",
+  "attributes": [{
+      "parameter": "width",
+      "description": "图标宽度",
+      "optional": "medium / small / large"
+    },
+    {
+      "parameter": "height",
+      "description": "图标高度",
+      "optional": "primary / second / text"
+    },
+    {
+      "parameter": "icon-class",
+      "description": "图标类型"
+    },
+    {
+      "parameter": "remote-url",
+      "description": "远程地址"
+    },
+    {
+      "parameter": "query",
+      "description": "url的qury参数, 传入一个json对象"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/svg-icon"
+}

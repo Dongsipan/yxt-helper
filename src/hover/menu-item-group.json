@@ -1,0 +1,8 @@
+{
+  "component": "yxt-menu-item-group",
+  "attributes": [{
+    "parameter": "title",
+    "description": "分组标题"
+  }],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/menu"
+}

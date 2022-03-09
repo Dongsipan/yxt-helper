@@ -1,0 +1,61 @@
+{
+  "component": "yxt-dropdown",
+  "attributes": [{
+      "parameter": "custom-elm",
+      "description": "是否要自定义下拉触发元素",
+      "optional": ""
+    },
+    {
+      "parameter": "placement",
+      "description": "菜单弹出位置",
+      "optional": "top/top-start/top-end/bottom/bottom-start/bottom-end"
+    },
+    {
+      "parameter": "trigger",
+      "description": "触发下拉的行为",
+      "optional": "hover, click"
+    },
+    {
+      "parameter": "hide-on-click",
+      "description": "是否在点击菜单项后隐藏菜单",
+      "optional": ""
+    },
+    {
+      "parameter": "show-timeout",
+      "description": "展开下拉菜单的延时（仅在 trigger 为 hover 时有效）",
+      "optional": ""
+    },
+    {
+      "parameter": "hide-timeout",
+      "description": "收起下拉菜单的延时（仅在 trigger 为 hover 时有效）",
+      "optional": ""
+    },
+    {
+      "parameter": "tabindex",
+      "description": "Dropdown 组件的 tabindex",
+      "optional": ""
+    },
+    {
+      "parameter": "disabled",
+      "description": "是否全部禁用",
+      "optional": ""
+    }
+  ],
+  "events": [{
+      "event": "click",
+      "description": "split-button 为 true 时，点击左侧按钮的回调",
+      "callback": ""
+    },
+    {
+      "event": "command",
+      "description": "点击菜单项触发的事件回调",
+      "callback": "dropdown-item 的指令"
+    },
+    {
+      "event": "visible-change",
+      "description": "下拉框出现/隐藏时触发",
+      "callback": "出现则为 true，隐藏则为 false"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/dropdown"
+}

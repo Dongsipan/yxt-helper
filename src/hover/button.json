@@ -1,0 +1,49 @@
+{
+  "attributes": [{
+      "parameter": "size",
+      "description": "尺寸",
+      "optional": "medium / small / large"
+    },
+    {
+      "parameter": "type",
+      "description": "类型",
+      "optional": "primary / second / text"
+    },
+    {
+      "parameter": "plain",
+      "description": "是否朴素按钮"
+    },
+    {
+      "parameter": "round",
+      "description": "是否圆角按钮"
+    },
+    {
+      "parameter": "circle",
+      "description": "是否圆形按钮"
+    },
+    {
+      "parameter": "loading",
+      "description": "是否加载中状态"
+    },
+    {
+      "parameter": "disabled",
+      "description": "是否禁用状态"
+    },
+    {
+      "parameter": "icon",
+      "description": "图标类名"
+    },
+    {
+      "parameter": "autofocus",
+      "description": "是否默认聚焦"
+    },
+    {
+      "parameter": "native-type",
+      "description": "原生 type 属性",
+      "optional": "button / submit / reset"
+    }
+  ],
+  "codeBlock": "<yxt-button type=\"primary\">主要按钮</yxt-button>",
+  "component": "yxt-button",
+  "link": "http: //xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/button"
+}

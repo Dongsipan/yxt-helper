@@ -1,0 +1,26 @@
+{
+  "component": "yxt-link",
+  "attributes": [{
+      "parameter": "type",
+      "description": "类型",
+      "optional": "primary / success / warning / danger / info"
+    },
+    {
+      "parameter": "underline",
+      "description": "是否下划线"
+    },
+    {
+      "parameter": "disabled",
+      "description": "是否禁用状态"
+    },
+    {
+      "parameter": "href",
+      "description": "原生 href 属性"
+    },
+    {
+      "parameter": "icon",
+      "description": "图标类名"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/link"
+}

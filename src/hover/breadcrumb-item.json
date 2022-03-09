@@ -1,0 +1,15 @@
+{
+  "component": "yxt-breadcrumb-item",
+  "attributes": [{
+      "parameter": "to",
+      "description": "路由跳转对象，同 vue-router 的 to",
+      "optional": ""
+    },
+    {
+      "parameter": "replace",
+      "description": "在使用 to 进行路由跳转时，启用 replace 将不会向 history 添加新记录",
+      "optional": ""
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/breadcrumb"
+}

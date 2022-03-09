@@ -1,0 +1,15 @@
+{
+  "component": "yxt-breadcrumb",
+  "attributes": [{
+      "parameter": "separator",
+      "description": "分隔符",
+      "optional": ""
+    },
+    {
+      "parameter": "separator-class",
+      "description": "图标分隔符 class",
+      "optional": ""
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/breadcrumb"
+}

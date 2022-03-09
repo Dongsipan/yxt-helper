@@ -1,0 +1,25 @@
+{
+  "component": "yxt-dropdown-item",
+  "attributes": [{
+      "parameter": "command",
+      "description": "指令",
+      "optional": ""
+    },
+    {
+      "parameter": "disabled",
+      "description": "禁用",
+      "optional": ""
+    },
+    {
+      "parameter": "divided",
+      "description": "显示分割线",
+      "optional": ""
+    },
+    {
+      "parameter": "icon",
+      "description": "图标类名",
+      "optional": ""
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/dropdown"
+}

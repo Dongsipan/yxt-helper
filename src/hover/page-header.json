@@ -1,0 +1,39 @@
+{
+  "component": "yxt-page-header",
+  "attributes": [{
+    "parameter": "title",
+    "description": "标题"
+  },{
+    "parameter": "subtitle",
+    "description": "副标题"
+  },{
+    "parameter": "pure",
+    "description": "朴素模式不包含content部分且title部分没有额外的上下padding",
+    "default": "true"
+  },{
+    "parameter": "checkIcon",
+    "description": "切换icon （废弃）",
+    "default": "true"
+  },{
+    "parameter": "size",
+    "optional": "-/small",
+    "description": "尺寸"
+  }],
+  "events": [{
+    "event": "back",
+    "description": "点击左侧区域触发"
+  }],
+  "slots": [{
+    "name": "title",
+    "description": "标题内容"
+  },
+  {
+    "name": "content",
+    "description": "内容"
+  },
+  {
+    "name": "title-right",
+    "description": "标题右侧"
+  }],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/page-header"
+}

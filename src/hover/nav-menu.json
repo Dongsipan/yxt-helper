@@ -1,0 +1,93 @@
+{
+  "component": "yxt-menu",
+  "attributes": [{
+    "parameter": "mode",
+    "description": "模式",
+    "optional": "horizontal / vertical",
+    "default": "vertical"
+  },
+    {
+      "parameter": "collapse",
+      "description": "是否水平折叠收起菜单（仅在 mode 为 vertical 时可用）",
+      "optional": "",
+      "default": "false"
+    },
+    {
+      "parameter": "background-color",
+      "description": "菜单的背景色（仅支持 hex 格式）",
+      "optional": "",
+      "default": "false"
+    },
+    {
+      "parameter": "text-color",
+      "description": "菜单的文字颜色（仅支持 hex 格式）",
+      "optional": "",
+      "default": "#fff"
+    },
+    {
+      "parameter": "active-text-color",
+      "description": "当前激活菜单的文字颜色（仅支持 hex 格式）",
+      "optional": "",
+      "default": "#fff"
+    },
+    {
+      "parameter": "default-active",
+      "description": "当前激活菜单的 index",
+      "optional": "",
+      "default": ""
+    },
+    {
+      "parameter": "default-openeds",
+      "description": "当前打开的 sub-menu 的 index 的数组",
+      "optional": ""
+    },
+    {
+      "parameter": "unique-opened",
+      "description": "是否只保持一个子菜单的展开",
+      "optional": "",
+      "default": "false"
+    },
+    {
+      "parameter": "menu-trigger",
+      "description": "子菜单打开的触发方式(只在 mode 为 horizontal 时有效)",
+      "optional": "hover / click",
+      "default": "hover"
+    },{
+      "parameter": "router",
+      "description": "是否使用 vue-router 的模式，启用该模式会在激活导航时以 index 作为 path 进行路由跳转",
+      "optional": "",
+      "default": "false"
+    },{
+      "parameter": "collapse-transition",
+      "description": "是否开启折叠动画",
+      "optional": "",
+      "default": "true"
+    }
+  ],
+  "methods": [{
+    "method": "open",
+    "description": "展开指定的 sub-menu",
+    "parameter": "index: 需要打开的 sub-menu 的 index"
+  }, {
+    "method": "close",
+    "description": "收起指定的 sub-menu",
+    "parameter": "index: 需要收起的 sub-menu 的 index"
+  }],
+  "events": [{
+    "event": "select",
+    "description": "菜单激活回调",
+    "callback": "index: 选中菜单项的 index, indexPath: 选中菜单项的 index path"
+  },
+    {
+      "event": "open",
+      "description": "sub-menu 展开的回调",
+      "callback": "index: 打开的 sub-menu 的 index， indexPath: 打开的 sub-menu 的 index path"
+    },
+    {
+      "event": "close",
+      "description": "index: 收起的 sub-menu 的 index， indexPath: 收起的 sub-menu 的 index path",
+      "callback": "出现则为 true，隐藏则为 false"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/menu"
+}

@@ -1,0 +1,90 @@
+{
+  "component": "yxt-pagination",
+  "attributes": [{
+      "parameter": "small",
+      "description": "是否使用小型分页样式",
+      "optional": "",
+      "default": "false"
+    },
+    {
+      "parameter": "background",
+      "description": "是否为分页按钮添加背景色",
+      "optional": "",
+      "default": "false"
+    },
+    {
+      "parameter": "page-size",
+      "description": "每页显示条目个数，支持 .sync 修饰符",
+      "optional": "",
+      "default": ""
+    }, {
+      "parameter": "total",
+      "description": "是否为分页按钮添加背景色",
+      "optional": "",
+      "default": "false"
+    }, {
+      "parameter": "page-count",
+      "description": "总页数，total 和 page-count 设置任意一个就可以达到显示页码的功能；如果要支持 page-sizes 的更改，则需要使用 total 属性",
+      "optional": "",
+      "default": ""
+    }, {
+      "parameter": "pager-count",
+      "description": "页码按钮的数量，当总页数超过该值时会折叠",
+      "optional": "大于等于 5 且小于等于 21 的奇数",
+      "default": "7"
+    }, {
+      "parameter": "current-page",
+      "description": "组件布局，子组件名用逗号分隔",
+      "optional": "sizes, prev, pager, next, jumper, ->, total, slot",
+      "default": "prev, pager, next, jumper, ->, total"
+    }, {
+      "parameter": "page-sizes",
+      "description": "每页显示个数选择器的选项设置",
+      "optional": "",
+      "default": "[10, 20, 50, 100]"
+    }, {
+      "parameter": "popper-class",
+      "description": "每页显示个数选择器的下拉框类名",
+      "optional": "",
+      "default": ""
+    }, {
+      "parameter": "prev-text",
+      "description": "替代图标显示的上一页文字",
+      "optional": "",
+      "default": ""
+    }, {
+      "parameter": "next-text",
+      "description": "替代图标显示的下一页文字",
+      "optional": "",
+      "default": ""
+    }, {
+      "parameter": "disabled",
+      "description": "是否禁用",
+      "optional": "",
+      "default": "false"
+    }, {
+      "parameter": "show-on-single-page",
+      "description": "只有一页时是否显示",
+      "optional": "",
+      "default": ""
+    }
+  ],
+  "events": [{
+    "event": "size-change",
+    "description": "pageSize 改变时会触发",
+    "callback": "每页条数"
+  }, {
+    "event": "current-change",
+    "description": "currentPage 改变时会触发",
+    "callback": "当前页"
+  }, {
+    "event": "prev-click",
+    "description": "用户点击上一页按钮改变当前页后触发",
+    "callback": "当前页"
+  }, {
+    "event": "next-click",
+    "description": "用户点击下一页按钮改变当前页后触发",
+    "callback": "当前页"
+  }],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/pagination"
+}

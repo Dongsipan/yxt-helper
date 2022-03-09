@@ -1,0 +1,33 @@
+{
+  "component": "yxt-submenu",
+  "attributes": [{
+      "parameter": "index",
+      "description": "唯一标志"
+    },
+    {
+      "parameter": "popper-class",
+      "description": "弹出菜单的自定义类名"
+    },
+    {
+      "parameter": "show-timeout",
+      "description": "展开 sub-menu 的延时",
+      "default": "300"
+    },
+    {
+      "parameter": "hide-timeout",
+      "description": "收起 sub-menu 的延时",
+      "default": "300"
+    },
+    {
+      "parameter": "disabled",
+      "description": "是否禁用",
+      "default": "false"
+    },
+    {
+      "parameter": "popper-append-to-body",
+      "description": "是否将弹出菜单插入至 body 元素。在菜单的定位出现问题时，可尝试修改该属性",
+      "default": "一级子菜单：true / 非一级子菜单：false"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/menu"
+}

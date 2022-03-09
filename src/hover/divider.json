@@ -1,0 +1,16 @@
+{
+  "component": "yxt-divider",
+  "codeBlock": "<yxt-divider></yxt-divider>",
+  "attributes": [{
+      "parameter": "direction",
+      "description": "设置分割线方向",
+      "optional": "horizontal / vertical"
+    },
+    {
+      "parameter": "content-position",
+      "description": "设置分割线文案的位置",
+      "optional": "left / right / center"
+    }
+  ],
+  "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/divider"
+}
