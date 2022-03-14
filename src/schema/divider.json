@@ -1,5 +1,6 @@
 {
   "component": "yxt-divider",
+  "completion": "<yxt-divider />",
   "codeBlock": "<yxt-divider></yxt-divider>",
   "attributes": [{
       "parameter": "direction",

@@ -45,5 +45,6 @@
   ],
   "codeBlock": "<yxt-button type=\"primary\">主要按钮</yxt-button>",
   "component": "yxt-button",
+  "completion": "<yxt-button type=\"primary\">\\n</yxt-button>",
   "link": "http://xuanxing-pc-ui.yunxuetang.com.cn/#/zh-CN/component/button"
 }

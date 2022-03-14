@@ -3,7 +3,7 @@
   "displayName": "yxt-helper",
   "description": "yxt-helper",
   "publisher": "dongsipan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.64.0"
   },
@@ -21,7 +21,7 @@
     }]
   },
   "scripts": {
-    "vscode:publish": "vsce publish -p oknbqnjb4vzhnvpipyqquow3zhuj4bpc6vfx3tafgi2qmyric5tq",
+    "vscode:publish": "vsce publish",
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
     "watch": "webpack --watch",

@@ -1,4 +1,4 @@
-interface Attribute {
+export interface Attribute {
   parameter: string
   description: string
   optional: string | undefined
@@ -21,8 +21,9 @@ interface Slot {
   description: string
 }
 
-export interface Hover {
+export interface Schema {
   component: string
+  completion: string | undefined
   attributes: Attribute[]
   events: Event[] | undefined
   methods: Method[] | undefined

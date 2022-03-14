@@ -1,5 +1,6 @@
 {
   "component": "yxt-breadcrumb",
+  "completion": "<yxt-breadcrumb separator-class=\"yxt-icon-arrow-right\">\n</yxt-breadcrumb>",
   "attributes": [{
       "parameter": "separator",
       "description": "分隔符",
